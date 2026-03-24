@@ -1,0 +1,94 @@
+{
+    "configuration": "config_6_moderate",
+    "hyperparameters": {
+        "batch_size": 8,
+        "epochs": 3,
+        "learning_rate": 2.5e-05,
+        "warmup_ratio": 0.1,
+        "weight_decay": 0.02,
+        "max_grad_norm": 0.8
+    },
+    "training_history": {
+        "train_losses": [
+            2.9943182492993543,
+            2.0742709759584406,
+            1.4817510320968235
+        ],
+        "val_losses": [
+            2.5049287605285646,
+            1.6884227037429809,
+            1.3167260336875914
+        ],
+        "val_accuracy": [
+            0.43523316062176165,
+            0.8393782383419689,
+            0.9585492227979274
+        ],
+        "val_balanced_accuracy": [
+            0.4058571428571429,
+            0.7923809523809524,
+            0.9565873015873015
+        ],
+        "val_precision_macro": [
+            0.40819915062799317,
+            0.7881161701044054,
+            0.9723137973137973
+        ],
+        "val_recall_macro": [
+            0.4058571428571429,
+            0.7923809523809524,
+            0.9565873015873015
+        ],
+        "val_f1_macro": [
+            0.32080526399837767,
+            0.7605400811655924,
+            0.9565481577246284
+        ],
+        "val_mcc": [
+            0.41873238571604865,
+            0.8350149842649947,
+            0.957168929200609
+        ],
+        "val_cohen_kappa": [
+            0.404320987654321,
+            0.8307879404943719,
+            0.9564395542389618
+        ],
+        "epoch_times": [
+            82.66756319999695,
+            87.9450135231018,
+            91.53557062149048
+        ],
+        "learning_rates": [
+            1.851145038167939e-05,
+            9.255725190839695e-06,
+            0.0
+        ]
+    },
+    "best_performance": {
+        "best_epoch": 3,
+        "best_accuracy": 0.9585492227979274,
+        "best_balanced_accuracy": 0.9565873015873015,
+        "best_f1_macro": 0.9565481577246284,
+        "best_mcc": 0.957168929200609
+    },
+    "final_performance": {
+        "final_accuracy": 0.9585492227979274,
+        "final_balanced_accuracy": 0.9565873015873015,
+        "final_f1_macro": 0.9565481577246284,
+        "final_train_loss": 1.4817510320968235,
+        "final_val_loss": 1.3167260336875914,
+        "final_mcc": 0.957168929200609
+    },
+    "training_time": {
+        "total_minutes": 4.3692026535669966,
+        "avg_epoch_seconds": 87.38271578152974
+    },
+    "model_info": {
+        "num_labels": 25,
+        "base_model": "bert-base-uncased",
+        "total_parameters": 109501465,
+        "trainable_parameters": 109501465
+    },
+    "timestamp": "2025-11-12 00:14:29"
+}

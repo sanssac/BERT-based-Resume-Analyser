@@ -1,0 +1,35 @@
+# PyTorch 1.12.1 with CUDA support (install separately - see README.md)
+# torch==1.12.1+cu113
+# torchvision==0.13.1+cu113
+# torchaudio==0.12.1
+
+# Core ML libraries
+numpy==1.23.5
+pandas==1.5.3
+scikit-learn==1.2.2
+
+# Visualization
+matplotlib==3.6.3
+seaborn==0.12.2
+tensorboard==2.11.2
+
+# Image processing
+Pillow==9.4.0
+opencv-python==4.7.0.72
+
+# Jupyter
+jupyter==1.0.0
+ipykernel==6.21.3
+ipywidgets==8.0.4
+
+# Utilities
+tqdm==4.65.0
+pyyaml==6.0
+h5py==3.8.0
+
+# Model utilities
+torchsummary==1.5.1
+torchmetrics==0.11.4
+
+# Experiment tracking (optional)
+wandb==0.14.0

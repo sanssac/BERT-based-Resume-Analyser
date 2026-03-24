@@ -1,0 +1,2 @@
+models/saved_models/resume_analyser_bert/*.safetensors filter=lfs diff=lfs merge=lfs -text
+models/saved_models/resume_analyser_bert/*.bin filter=lfs diff=lfs merge=lfs -text

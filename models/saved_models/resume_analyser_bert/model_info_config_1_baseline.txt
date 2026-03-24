@@ -1,0 +1,43 @@
+
+Resume Analyser - BERT Model
+=============================
+
+Configuration: config_1_baseline
+Description: Baseline configuration
+
+Model Details:
+- Base Model: bert-base-uncased
+- Task: Multi-class Text Classification (25 job categories)
+- Total Parameters: 109,501,465
+- Trainable Parameters: 109,501,465
+
+Hyperparameters:
+- Epochs: 5
+- Batch Size: 32
+- Learning Rate: 2e-05
+- Warmup Ratio: 0.0
+- Weight Decay: 0.01
+- Max Gradient Norm: 1.0
+- Optimizer: AdamW
+- Scheduler: Linear warmup
+
+Best Performance (Epoch 2):
+- Validation Accuracy: 1.0000 (100.00%)
+- Balanced Accuracy: 1.0000
+- F1-Score (Macro): 1.0000
+- Precision (Macro): 1.0000
+- Recall (Macro): 1.0000
+- MCC Score: 1.0000
+- Cohen's Kappa: 1.0000
+
+Final Performance:
+- Validation Accuracy: 1.0000 (100.00%)
+- Training Loss: 0.1959
+- Validation Loss: 0.1487
+
+Training Time:
+- Total: 7.19 minutes
+- Average per Epoch: 86.32 seconds
+
+Training Date: 2025-11-11 23:55:31
+Device: cuda

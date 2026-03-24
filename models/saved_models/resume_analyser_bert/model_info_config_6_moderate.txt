@@ -1,0 +1,43 @@
+
+Resume Analyser - BERT Model
+=============================
+
+Configuration: config_6_moderate
+Description: Moderate training to achieve 90-95% accuracy
+
+Model Details:
+- Base Model: bert-base-uncased
+- Task: Multi-class Text Classification (25 job categories)
+- Total Parameters: 109,501,465
+- Trainable Parameters: 109,501,465
+
+Hyperparameters:
+- Epochs: 3
+- Batch Size: 8
+- Learning Rate: 2.5e-05
+- Warmup Ratio: 0.1
+- Weight Decay: 0.02
+- Max Gradient Norm: 0.8
+- Optimizer: AdamW
+- Scheduler: Linear warmup
+
+Best Performance (Epoch 3):
+- Validation Accuracy: 0.9585 (95.85%)
+- Balanced Accuracy: 0.9566
+- F1-Score (Macro): 0.9565
+- Precision (Macro): 0.9723
+- Recall (Macro): 0.9566
+- MCC Score: 0.9572
+- Cohen's Kappa: 0.9564
+
+Final Performance:
+- Validation Accuracy: 0.9585 (95.85%)
+- Training Loss: 1.4818
+- Validation Loss: 1.3167
+
+Training Time:
+- Total: 4.37 minutes
+- Average per Epoch: 87.38 seconds
+
+Training Date: 2025-11-12 00:14:29
+Device: cuda

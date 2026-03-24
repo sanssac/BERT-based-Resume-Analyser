@@ -1,0 +1,23 @@
+
+Resume Analyser - BERT Model
+=============================
+
+Model Details:
+- Base Model: bert-base-uncased
+- Task: Multi-class Text Classification (25 job categories)
+- Total Parameters: 109,501,465
+
+Training Configuration:
+- Epochs: 5
+- Batch Size: 4
+- Learning Rate: 2e-05
+- Optimizer: AdamW
+- Scheduler: Linear warmup
+
+Performance:
+- Best Validation Accuracy: 1.0000 (100%)
+- Best MCC Score: 1.0000
+- Final Training Loss: 0.3604
+- Final Validation Loss: 0.2767
+
+Training Date: 2025-11-03 02:53:29
