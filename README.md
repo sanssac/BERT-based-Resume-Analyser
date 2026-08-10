@@ -1,4 +1,4 @@
-# Resume Analyser - BERT-based Job Category Classifier
+F# Resume Analyser - BERT-based Job Category Classifier
 
 A deep learning model that automatically classifies resumes into 25 job categories using BERT (Bidirectional Encoder Representations from Transformers).
 
@@ -82,7 +82,7 @@ resume-analyser/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/Swakyxd/Resume-Analyser.git
+git clone https://github.com/sanssac/BERT-based-Resume-Analyser
 cd Resume-Analyser
 ```
 
